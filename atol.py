@@ -47,7 +47,7 @@ class PrintReports(ConnectDevice):
          self.fptr.report()
          print('X-REPORT COMPLETED')
          return ('Успешно распечатан Х отчёт') 
-    
+      
     def zreport(self):
             self.fptr.setParam(1021, self.cashiername)
             self.fptr.setParam(1203, self.inn)
